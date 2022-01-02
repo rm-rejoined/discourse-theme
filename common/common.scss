@@ -60,7 +60,7 @@ body {
 #background {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  // background-image: var(--body-bg);
+  background-image: var(--body-bg);
   background-repeat: repeat;
   background-color: $secondary;
   height: 100vh;

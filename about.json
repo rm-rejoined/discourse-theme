@@ -4,7 +4,7 @@
   "license_url": "https://github.com/rm-rejoined/discourse-theme/blob/main/LICENSE",
   "assets": {
     "font": "assets/fonts/inter.woff2",
-    "light-body-bg": "assets/images/light-body-bg.svg"
+    "light-body-bg": "assets/images/light-body-bg.png"
   },
   "color_schemes": {
     "re:joined Light": {
