@@ -1,14 +1,19 @@
 // light theme -------------------------------
+$light-header-bg: #fff;
 $light-header-border: #e4e4e7;
 
 // dark theme -------------------------------
-$dark-header-border: #f00;
+$dark-header-bg: #1f2937;
+$dark-header-border: #000;
 
+// dark-light-choose -------------------------------
+$header-bg: dark-light-choose($light-header-bg, $dark-header-bg);
 $header-border: dark-light-choose($light-header-border, $dark-header-border);
 $body-bg: dark-light-choose($light-body-bg, $light-body-bg);
 
 // custom vars -------------------------------
 :root {
+  --header-bg: #{$header-bg};
   --header-border: #{$header-border};
   --body-bg: url(#{$body-bg});
 }
