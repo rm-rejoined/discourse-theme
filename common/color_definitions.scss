@@ -4,10 +4,11 @@ $light-header-border: #e4e4e7;
 // dark theme -------------------------------
 $dark-header-border: #f00;
 
-// header -------------------------------
 $header-border: dark-light-choose($light-header-border, $dark-header-border);
+$body-bg: dark-light-choose($light-body-bg, $light-body-bg);
 
 // custom vars -------------------------------
 :root {
   --header-border: #{$header-border};
+  --body-bg: #{$body-bg};
 }
