@@ -11,5 +11,7 @@
 
 // site-logo -------------------------------
 #site-logo {
-  height: 3rem;
+  &.logo-big {
+    height: 3rem;
+  }
 }

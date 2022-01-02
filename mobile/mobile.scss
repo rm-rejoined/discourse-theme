@@ -11,5 +11,7 @@
 
 // site-logo -------------------------------
 #site-logo {
-  height: 2.5rem;
+  &.logo-mobile {
+    height: 2.5rem;
+  }
 }
