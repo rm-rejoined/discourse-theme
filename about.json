@@ -21,10 +21,10 @@
     },
     "re:joined Dark": {
       "primary": "252125",
-      "secondary": "fafafa",
+      "secondary": "18181b",
       "tertiary": "0d8f7b",
       "quaternary": "0d8f7b",
-      "header_background": "000",
+      "header_background": "1f2937",
       "header_primary": "fff",
       "highlight": "f1a7cf",
       "danger": "e8004d",
