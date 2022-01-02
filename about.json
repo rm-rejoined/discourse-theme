@@ -18,6 +18,18 @@
       "danger": "e8004d",
       "success": "36d100",
       "love": "fa6c6c"
+    },
+    "re:joined Dark": {
+      "primary": "252125",
+      "secondary": "fafafa",
+      "tertiary": "0d8f7b",
+      "quaternary": "0d8f7b",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "f1a7cf",
+      "danger": "e8004d",
+      "success": "36d100",
+      "love": "fa6c6c"
     }
   }
 }

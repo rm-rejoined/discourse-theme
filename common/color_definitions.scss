@@ -1,0 +1,13 @@
+// light theme -------------------------------
+$light-header-border: #e4e4e7;
+
+// dark theme -------------------------------
+$dark-header-border: #f00;
+
+// header -------------------------------
+$header-border: dark-light-choose($light-header-border, $dark-header-border);
+
+// custom vars -------------------------------
+:root {
+  --header-border: #{$header-border};
+}
