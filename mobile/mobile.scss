@@ -1,0 +1,10 @@
+@import "common/foundation/variables";
+
+// header -------------------------------
+.d-header {
+  height: 5em;
+
+  &-icons > li {
+    margin-left: 1em;
+  }
+}
