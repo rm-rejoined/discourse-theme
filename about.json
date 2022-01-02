@@ -4,10 +4,11 @@
   "license_url": "https://github.com/rm-rejoined/discourse-theme/blob/main/LICENSE",
   "assets": {
     "font": "assets/fonts/inter.woff2",
-    "light-body-bg": "assets/images/light-body-bg.png"
+    "light-body-image": "assets/images/light-body-bg.png",
+    "dark-body-image": "assets/images/dark-body-bg.png"
   },
   "color_schemes": {
-    "re:joined Light": {
+    "rejoined Light": {
       "primary": "252125",
       "secondary": "fafafa",
       "tertiary": "0d8f7b",
@@ -19,7 +20,7 @@
       "success": "36d100",
       "love": "fa6c6c"
     },
-    "re:joined Dark": {
+    "rejoined Dark": {
       "primary": "252125",
       "secondary": "18181b",
       "tertiary": "0d8f7b",

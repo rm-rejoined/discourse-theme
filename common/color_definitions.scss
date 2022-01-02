@@ -7,12 +7,12 @@ $light-header-border: #e4e4e7;
 // dark theme -------------------------------
 $dark-body-color: #18181b;
 
-$dark-header-bg: #1f2937;
+$dark-header-bg: #27272a;
 $dark-header-border: #000;
 
 // dark-light-choose -------------------------------
 $body-bg-color: dark-light-choose($light-body-color, $dark-body-color);
-$body-bg-image: dark-light-choose($light-body-bg, $dark-body-bg);
+$body-bg-image: dark-light-choose($light-body-image, $dark-body-image);
 
 $header-bg: dark-light-choose($light-header-bg, $dark-header-bg);
 $header-border: dark-light-choose($light-header-border, $dark-header-border);
