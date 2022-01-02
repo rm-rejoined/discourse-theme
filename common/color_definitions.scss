@@ -1,17 +1,27 @@
 // light theme -------------------------------
+$light-body-color: #fafafa;
+
+$light-header-bg: #fff;
 $light-header-border: #e4e4e7;
 
 // dark theme -------------------------------
+$dark-body-color: #18181b;
+
+$dark-header-bg: #27272a;
 $dark-header-border: #000;
 
 // dark-light-choose -------------------------------
+$body-bg-color: dark-light-choose($light-body-color, $dark-body-color);
 $body-bg-image: dark-light-choose($light-body-image, $dark-body-image);
 
+$header-bg: dark-light-choose($light-header-bg, $dark-header-bg);
 $header-border: dark-light-choose($light-header-border, $dark-header-border);
 
 // custom vars -------------------------------
 :root {
+  --body-bg-color: #{$body-bg-color};
   --body-bg-image: url(#{$body-bg-image});
 
+  --header-bg: #{$header-bg};
   --header-border: #{$header-border};
 }
