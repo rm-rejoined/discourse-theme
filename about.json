@@ -8,7 +8,7 @@
     "dark-body-image": "assets/images/dark-body-image.png"
   },
   "color_schemes": {
-    "rejoined Light": {
+    "re:joined Light": {
       "primary": "252125",
       "secondary": "fafafa",
       "tertiary": "0d8f7b",
@@ -20,13 +20,13 @@
       "success": "36d100",
       "love": "fa6c6c"
     },
-    "rejoined Dark": {
+    "re:joined Dark": {
       "primary": "252125",
       "secondary": "18181b",
       "tertiary": "0d8f7b",
       "quaternary": "0d8f7b",
-      "header_background": "1f2937",
-      "header_primary": "fff",
+      "header_background": "27272a",
+      "header_primary": "ffffff",
       "highlight": "f1a7cf",
       "danger": "e8004d",
       "success": "36d100",
