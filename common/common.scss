@@ -53,15 +53,15 @@ html {
 
 // body background -------------------------------
 body {
+  background-color: $secondary;
   position: relative;
 }
 
 #background {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  // background-image: url($body-bg);
+  background-image: url($body-bg);
   background-repeat: repeat;
-  background-color: $secondary;
   height: 100vh;
   left: 0;
   left: 0;
