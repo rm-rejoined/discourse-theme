@@ -1,0 +1,23 @@
+{
+  "name": "re:joined discourse theme",
+  "about_url": "",
+  "license_url": "https://github.com/rm-rejoined/discourse-theme/blob/main/LICENSE",
+  "assets": {
+    "font": "assets/fonts/inter.woff2",
+    "body-bg": "assets/images/body-bg.png"
+  },
+  "color_schemes": {
+    "re:joined Light": {
+      "primary": "252125",
+      "secondary": "fafafa",
+      "tertiary": "0d8f7b",
+      "quaternary": "0d8f7b",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "f1a7cf",
+      "danger": "e8004d",
+      "success": "36d100",
+      "love": "fa6c6c"
+    }
+  }
+}
