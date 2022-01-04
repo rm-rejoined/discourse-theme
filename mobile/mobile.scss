@@ -21,4 +21,8 @@
 // footer -------------------------------
 .d-footer {
   height: 4em;
+
+  &.footer-logo {
+    height: 2.5rem;
+  }
 }
