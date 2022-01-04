@@ -94,8 +94,8 @@ body {
 }
 
 .d-footer > .wrap {
-  width: calc(100% - 16px);
   height: 100%;
+  width: calc(100% - 16px);
 }
 
 .d-footer .contents {
@@ -105,11 +105,16 @@ body {
 }
 
 .d-footer-nav {
+  align-items: center;
   display: flex;
   flex: 0 0 auto;
-  align-items: center;
 }
 
 .d-footer-nav a {
+  color: #fff;
   padding: 0.5em 0.75em;
+}
+
+.d-footer-nav a:hover {
+  text-decoration: underline;
 }
