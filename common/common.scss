@@ -86,3 +86,20 @@ body {
   border-bottom: 1px solid var(--header-border);
   box-shadow: none;
 }
+
+// footer -------------------------------
+.d-footer {
+  background-color: #27272a;
+  border-top: 1px solid #000;
+}
+
+.d-footer > .wrap {
+  width: calc(100% - 16px);
+  height: 100%;
+}
+
+.d-footer .contents {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
