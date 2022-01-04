@@ -20,9 +20,17 @@
 
 // footer -------------------------------
 .d-footer {
-  height: 4em;
+  min-height: 4em;
+}
+
+.d-footer .contents {
+  flex-direction: column;
 }
 
 .d-footer-logo {
   height: 2.5rem;
+}
+
+.d-footer-nav {
+  margin-left: none;
 }
