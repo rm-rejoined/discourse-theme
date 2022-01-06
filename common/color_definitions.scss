@@ -13,7 +13,7 @@ $header-primary-dark: #fff;
 
 // dark-light-choose -------------------------------
 $body-bg-color: dark-light-choose($body-bg-light, $body-bg-dark);
-$body-bg-image: dark-light-choose($body-image-light, $body-image-dark);
+// $body-bg-image: dark-light-choose($body-image-light, $body-image-dark);
 
 $header-background: dark-light-choose($header-bg-light, $header-bg-dark);
 $header-border: dark-light-choose($header-border-light, $header-border-dark);
@@ -22,7 +22,7 @@ $header-primary: dark-light-choose($header-primary-light, $header-primary-dark);
 // custom vars -------------------------------
 :root {
   --body_background-color: #{$body-bg-color};
-  --body_background-image: url(#{$body-bg-image});
+  // --body_background-image: url(#{$body-bg-image});
 
   --header_background: #{$header-background};
   --header_border: #{$header-border};
