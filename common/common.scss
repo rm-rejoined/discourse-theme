@@ -1,5 +1,4 @@
 @import "common/foundation/variables";
-@import "color_definitions";
 
 // font -------------------------------
 @font-face {
@@ -90,8 +89,8 @@ body {
 
 // footer -------------------------------
 .d-footer {
-  background-color: $header-bg-dark;
-  border-top: 1px solid $header-border-dark;
+  background-color: #27272a;
+  border-top: 1px solid #000;
 }
 
 .d-footer > .wrap {
@@ -112,7 +111,7 @@ body {
 }
 
 .d-footer-nav a {
-  color: $header-primary-dark;
+  color: #fff;
   padding: 0.5em 0.75em;
 }
 
