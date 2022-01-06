@@ -11,7 +11,7 @@ $header-primary: dark-light-choose($header-primary-light, $header-primary-dark);
 // custom vars -------------------------------
 :root {
   --body_background-color: #{$body-bg-color};
-  // --body_background-image: url(#{$body-bg-image});
+  --body_background-image: url(#{$body-bg-image});
 
   --header_background: #{$header-background};
   --header_border: #{$header-border};
