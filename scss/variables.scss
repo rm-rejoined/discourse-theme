@@ -3,6 +3,12 @@ $body-bg-light: #fafafa;
 $body-bg-dark: #18181b;
 
 // header -------------------------------
+$header-height: 5em;
+$header-height-mobile: 4em;
+
+$header-logo-big: 3rem;
+$header-logo-mobile: 2.5rem;
+
 $header-bg-light: #fff;
 $header-border-light: #e4e4e7;
 $header-primary-light: #333;
@@ -10,3 +16,14 @@ $header-primary-light: #333;
 $header-bg-dark: #27272a;
 $header-border-dark: #000;
 $header-primary-dark: #fff;
+
+// footer -------------------------------
+$footer-height: $header-height;
+$footer-height-mobile: $header-height-mobile;
+
+$footer-logo: $header-logo-big;
+$footer-logo-mobile: $header-logo-mobile;
+
+$footer-bg: $header-bg-dark;
+$footer-border: $header-border-dark;
+$footer-primary: $header-primary-dark;

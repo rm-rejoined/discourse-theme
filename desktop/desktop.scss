@@ -3,7 +3,7 @@
 
 // header -------------------------------
 .d-header {
-  height: 5em;
+  height: $header-height;
 
   &-icons > li {
     margin-left: 1.5em;
@@ -13,17 +13,17 @@
 // site-logo -------------------------------
 #site-logo {
   &.logo-big {
-    height: 3rem;
+    height: $header-logo-big;
   }
 }
 
 // footer -------------------------------
 .d-footer {
-  height: 5em;
+  height: $footer-height;
 }
 
 .d-footer-logo {
-  height: 3rem;
+  height: $footer-logo;
 }
 
 .d-footer-nav {

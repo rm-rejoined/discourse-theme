@@ -3,7 +3,7 @@
 
 // header -------------------------------
 .d-header {
-  height: 4em;
+  height: $header-height-mobile;
 
   &-icons > li {
     margin-left: 1em;
@@ -12,16 +12,16 @@
 
 // site-logo -------------------------------
 #site-logo {
-  max-height: 2.5rem !important;
+  max-height: $header-logo-mobile !important;
 
   &.logo-mobile {
-    height: 2.5rem;
+    height: $header-logo-mobile;
   }
 }
 
 // footer -------------------------------
 .d-footer {
-  min-height: 4em;
+  min-height: $footer-height-mobile;
   padding: 1em;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .d-footer-logo {
-  height: 2.5rem;
+  height: $footer-logo-mobile;
 }
 
 .d-footer-nav {
