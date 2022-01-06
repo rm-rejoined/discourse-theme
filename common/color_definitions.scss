@@ -2,7 +2,7 @@
 
 // dark-light-choose -------------------------------
 $body-bg-color: dark-light-choose($body-bg-light, $body-bg-dark);
-// $body-bg-image: dark-light-choose($body-image-light, $body-image-dark);
+$body-bg-image: dark-light-choose($body-image-light, $body-image-dark);
 
 $header-background: dark-light-choose($header-bg-light, $header-bg-dark);
 $header-border: dark-light-choose($header-border-light, $header-border-dark);
