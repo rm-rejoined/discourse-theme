@@ -12,8 +12,6 @@ $box-background: dark-light-choose($box-bg-light, $box-bg-dark);
 
 // custom vars -------------------------------
 :root {
-  --base-font-size: 18px;
-
   --body_background-color: #{$body-bg-color};
   --body_background-image: url(#{$body-bg-image});
 
