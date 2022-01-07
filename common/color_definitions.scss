@@ -10,7 +10,7 @@ $header-primary: dark-light-choose($header-primary-light, $header-primary-dark);
 
 $box-background: dark-light-choose($box-bg-light, $box-bg-dark);
 
-$topic-avatar-width: 100px;
+$topic-avatar-width: 100px default;
 
 // custom vars -------------------------------
 :root {
