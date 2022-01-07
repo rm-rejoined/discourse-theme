@@ -44,6 +44,10 @@
 }
 
 // topic-posts -------------------------------
+.topic-post:last-of-type {
+  padding-bottom: 0;
+}
+
 .topic-post article {
   border-top: 0;
   padding: 0;
