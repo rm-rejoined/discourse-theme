@@ -60,3 +60,27 @@
   flex-grow: 1;
   padding-top: 0;
 }
+
+// topic-list -------------------------------
+.topic-list th {
+  font-weight: 600;
+}
+
+.topic-list th:first-of-type,
+.topic-list td:first-of-type {
+  padding-left: 16px;
+}
+
+.topic-list th:last-of-type,
+.topic-list td:last-of-type {
+  padding-right: 16px;
+}
+
+.topic-list th,
+.topic-list td {
+  padding: 16px;
+}
+
+.topic-list tr:last-of-type {
+  border-bottom: none;
+}
