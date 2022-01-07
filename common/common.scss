@@ -1,6 +1,6 @@
 @import "variables";
 
-$topic-avatar-width: 100px !important;
+$topic-avatar-width: 100px;
 
 // font -------------------------------
 @font-face {
@@ -50,7 +50,6 @@ html {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: "liga";
-  font-size: 16px;
 }
 
 // body background -------------------------------
