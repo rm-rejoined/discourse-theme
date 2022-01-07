@@ -157,6 +157,6 @@ body {
 }
 
 // topic-list -------------------------------
-.topic-list-item-separator span {
-  background-color: var(--box_background);
+.topic-list .topic-list-item-separator td span {
+  background-color: var(--box_background) !important;
 }
