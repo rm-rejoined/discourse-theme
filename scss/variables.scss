@@ -3,8 +3,8 @@ $body-bg-light: #fafafa;
 $body-bg-dark: #18181b;
 
 // header -------------------------------
-$header-height: 5em;
-$header-height-mobile: 4em;
+$header-height: 5rem;
+$header-height-mobile: 4rem;
 
 $header-logo-big: 3rem;
 $header-logo-mobile: 2.5rem;
@@ -27,3 +27,8 @@ $footer-logo-mobile: $header-logo-mobile;
 $footer-bg: $header-bg-dark;
 $footer-border: $header-border-dark;
 $footer-primary: $header-primary-dark;
+
+// box -------------------------------
+$box-bg-light: $header-bg-light;
+
+$box-bg-dark: $header-bg-dark;

@@ -6,7 +6,7 @@
   height: $header-height-mobile;
 
   &-icons > li {
-    margin-left: 1em;
+    margin-left: 1rem;
   }
 }
 
@@ -22,7 +22,7 @@
 // footer -------------------------------
 .d-footer {
   min-height: $footer-height-mobile;
-  padding: 1em;
+  padding: 1rem;
 }
 
 .d-footer .contents {
@@ -34,5 +34,5 @@
 }
 
 .d-footer-nav {
-  margin: 0.5em 0 0;
+  margin: 0.5rem 0 0;
 }

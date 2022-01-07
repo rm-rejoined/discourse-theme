@@ -6,7 +6,7 @@
   height: $header-height;
 
   &-icons > li {
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
   }
 }
 
@@ -28,4 +28,34 @@
 
 .d-footer-nav {
   margin-left: auto;
+}
+
+// posts -------------------------------
+.container.posts {
+  gap: 3rem;
+  grid-template-columns: auto 25%;
+}
+
+// topic-posts -------------------------------
+.topic-post {
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+.topic-post .row {
+  display: flex;
+}
+
+.topic-post .topic-avatar,
+.topic-post .topic-body {
+  border-top: none;
+  float: none;
+}
+
+.topic-post .topic-avatar {
+  padding: 1rem 1rem 0 0.5rem;
+}
+
+.topic-post .topic-body {
+  flex-grow: 1;
 }

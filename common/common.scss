@@ -113,9 +113,17 @@ body {
 
 .d-footer-nav a {
   color: $footer-primary;
-  padding: 0.5em 0.75em;
+  padding: 0.5rem 0.75rem;
 }
 
 .d-footer-nav a:hover {
   text-decoration: underline;
+}
+
+// box -------------------------------
+.box,
+.topic-post {
+  background-color: var(--box_background);
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
