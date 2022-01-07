@@ -36,3 +36,9 @@
 .d-footer-nav {
   margin: 0.5rem 0 0;
 }
+
+// posts -------------------------------
+.container.posts {
+  gap: 0;
+  grid-template-columns: auto auto;
+}
