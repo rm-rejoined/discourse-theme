@@ -1,3 +1,4 @@
+@import "common/foundation/variables";
 @import "variables";
 
 // header -------------------------------
@@ -81,6 +82,7 @@
 
 // category-list -------------------------------
 .category-list th {
+  color: var(--primary-medium);
   padding: 1rem;
 }
 
