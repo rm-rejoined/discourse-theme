@@ -71,7 +71,9 @@
 }
 
 // category-list -------------------------------
-.category-list {
+
+.category-list,
+.category-list-item .topic-list {
   background: none;
   box-shadow: none;
 }
