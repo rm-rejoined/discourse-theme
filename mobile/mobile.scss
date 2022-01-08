@@ -82,4 +82,10 @@
   border-bottom: none;
   border-top: none;
   margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+.category-list-item footer {
+  border-top: 1px solid var(--primary-low);
+  padding: 16px;
 }
