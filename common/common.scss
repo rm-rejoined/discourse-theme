@@ -167,6 +167,11 @@ body {
   width: 100%;
 }
 
+.topic-post .post-notice.common {
+  background-color: var(--post-notice-background);
+  color: var(--post-notice-text);
+}
+
 // topic-list -------------------------------
 .topic-list .topic-list-item-separator td span {
   background-color: var(--box_background) !important;
