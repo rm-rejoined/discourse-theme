@@ -17,6 +17,10 @@ $notice-team-background: dark-light-choose(
   $notice-team-bg-light,
   $notice-team-bg-dark
 );
+$notice-mod-background: dark-light-choose(
+  $notice-mod-bg-light,
+  $notice-mod-bg-dark
+);
 
 // custom vars -------------------------------
 :root {
@@ -31,5 +35,7 @@ $notice-team-background: dark-light-choose(
 
   --notice_text: #{$notice-text};
   --notice_background: #{$notice-background};
+
   --notice-team_background: #{$notice-team-background};
+  --notice-mod_background: #{$notice-team-background};
 }

@@ -177,6 +177,13 @@ body {
   background-color: var(--notice-team_background);
 }
 
+.topic-post.moderator .cooked {
+  background-color: var(--notice-team_background);
+  border-radius: $border-radius;
+  margin-top: 1rem;
+  padding: 1rem 1rem 0;
+}
+
 // topic-list -------------------------------
 .topic-list .topic-list-item-separator td span {
   background-color: var(--box_background) !important;
