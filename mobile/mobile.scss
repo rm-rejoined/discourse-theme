@@ -42,6 +42,10 @@
   grid-template-columns: auto auto;
 }
 
+.post-stream {
+  padding-bottom: 3em;
+}
+
 // topic-posts -------------------------------
 .topic-post:last-of-type {
   padding-bottom: 0;
@@ -58,4 +62,9 @@
 
 .topic-post .post-notice {
   width: auto;
+}
+
+// topic-list -------------------------------
+.topic-list .tbody {
+  border-top: none;
 }

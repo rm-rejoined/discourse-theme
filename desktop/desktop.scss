@@ -60,6 +60,10 @@
   padding-top: 0;
 }
 
+.topic-post .post-notice {
+  width: 100%;
+}
+
 // topic-list -------------------------------
 .topic-list th {
   font-weight: 600;
@@ -73,17 +77,4 @@
 .topic-list th:last-of-type,
 .topic-list td:last-of-type {
   padding-right: 16px;
-}
-
-.topic-list th,
-.topic-list td {
-  padding: 16px;
-}
-
-.topic-list tr:last-of-type {
-  border-bottom: none;
-}
-
-.topic-post .post-notice {
-  width: 100%;
 }
