@@ -1,33 +1,33 @@
 @import "common/foundation/variables";
 @import "variables";
 
-// header -------------------------------
+// --------------------------------------------------
+// d-header
+// --------------------------------------------------
 .d-header {
   height: $header-height;
+
+  #site-logo,
+  #site-logo.logo-big {
+    height: $header-logo-big;
+  }
 
   &-icons > li {
     margin-left: 1.5rem;
   }
 }
 
-// site-logo -------------------------------
-#site-logo {
-  &.logo-big {
-    height: $header-logo-big;
-  }
-}
-
 // footer -------------------------------
 .d-footer {
   height: $footer-height;
-}
 
-.d-footer-logo {
-  height: $footer-logo;
-}
+  &-logo {
+    height: $footer-logo;
+  }
 
-.d-footer-nav {
-  margin-left: auto;
+  &-nav {
+    margin-left: auto;
+  }
 }
 
 // main-outlet -------------------------------
