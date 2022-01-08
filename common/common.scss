@@ -128,7 +128,8 @@ body {
 .box,
 .topic-post,
 .topic-list,
-.category-list {
+.category-list,
+.category-list-item {
   background-color: var(--box_background);
   border-radius: $box-radius;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
