@@ -158,6 +158,13 @@ body {
   border-top: none;
 }
 
+.topic-post .post-notice {
+  border-top: none;
+  margin-bottom: 2rem;
+  max-width: 100%;
+  padding: 1rem;
+}
+
 // topic-list -------------------------------
 .topic-list .topic-list-item-separator td span {
   background-color: var(--box_background) !important;
