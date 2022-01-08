@@ -86,6 +86,10 @@
   padding: 1rem;
 }
 
+.category-list tr:last-of-type {
+  border: none;
+}
+
 .category-list td {
   padding: 1rem;
 }
