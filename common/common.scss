@@ -159,6 +159,7 @@ body {
 }
 
 .topic-post .post-notice {
+  background-color: var(--notice_background);
   border-radius: $border-radius;
   border-top: none;
   color: var(--notice_text);
