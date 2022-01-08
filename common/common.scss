@@ -162,3 +162,9 @@ body {
 .topic-list .topic-list-item-separator td span {
   background-color: var(--box_background) !important;
 }
+
+// topic-list -------------------------------
+.small-action {
+  max-width: 100%;
+  border-top: none;
+}
