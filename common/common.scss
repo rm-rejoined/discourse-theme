@@ -168,6 +168,10 @@ body {
   width: 100%;
 }
 
+.topic-post .post-notice .d-icon {
+  color: var(--notice_text);
+}
+
 .topic-post .post-notice.custom {
   background-color: var(--notice-team_background);
 }
