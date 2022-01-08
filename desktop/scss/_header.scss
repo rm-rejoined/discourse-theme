@@ -1,0 +1,8 @@
+// header -------------------------------
+.d-header {
+  height: $header-height;
+
+  &-icons > li {
+    margin-left: 1.5rem;
+  }
+}
