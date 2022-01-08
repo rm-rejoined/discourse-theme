@@ -10,13 +10,10 @@ $header-primary: dark-light-choose($header-primary-light, $header-primary-dark);
 
 $box-background: dark-light-choose($box-bg-light, $box-bg-dark);
 
+$notice-text: dark-light-choose($notice-text-light, $notice-text-dark);
 $notice-team-background: dark-light-choose(
   $notice-team-bg-light,
   $notice-team-bg-dark
-);
-$notice-team-text: dark-light-choose(
-  $notice-team-text-light,
-  $notice-team-text-dark
 );
 
 // custom vars -------------------------------
@@ -31,5 +28,5 @@ $notice-team-text: dark-light-choose(
   --box_background: #{$box-background};
 
   --notice-team_background: #{$notice-team-background};
-  --notice-team_text: #{$notice-team-text};
+  --notice_text: #{$notice-text};
 }

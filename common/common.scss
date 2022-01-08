@@ -161,6 +161,7 @@ body {
 .topic-post .post-notice {
   border-radius: $border-radius;
   border-top: none;
+  color: var(--notice_text);
   margin-bottom: 2rem;
   max-width: 100%;
   padding: 1rem;
@@ -169,7 +170,6 @@ body {
 
 .topic-post .post-notice.custom {
   background-color: var(--notice-team_background);
-  color: var(--notice-team_text);
 }
 
 // topic-list -------------------------------
