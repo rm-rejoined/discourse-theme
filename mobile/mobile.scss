@@ -85,7 +85,18 @@
   padding: 0;
 }
 
+.categories-list .category-list th {
+  padding: 1rem 0 0;
+}
+
+.category-list-item h3,
+.category-list-item h4,
+.subcategory-list-item h3,
+.subcategory-list-item h4 {
+  padding: 0 0 0 1rem;
+}
+
 .category-list-item footer {
   border-top: 1px solid var(--primary-low);
-  padding: 16px;
+  padding: 1rem;
 }
