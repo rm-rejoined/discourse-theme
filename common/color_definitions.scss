@@ -22,6 +22,11 @@ $notice-mod-background: dark-light-choose(
   $notice-mod-bg-dark
 );
 
+$topic-separator-color: dark-light-choose(
+  $notice-team-bg-light,
+  $notice-team-bg-light
+);
+
 // custom vars -------------------------------
 :root {
   --body_background-color: #{$body-bg-color};
@@ -38,4 +43,6 @@ $notice-mod-background: dark-light-choose(
 
   --notice-team_background: #{$notice-team-background};
   --notice-mod_background: #{$notice-team-background};
+
+  --topic-separator_color: #{$topic-separator-color};
 }

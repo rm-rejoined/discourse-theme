@@ -187,6 +187,14 @@ body {
 }
 
 // topic-list -------------------------------
+.topic-list .topic-list-item-separator td {
+  border-bottom: 1px solid var(--topic-separator_color);
+}
+
+.topic-list .topic-list-item-separator td span {
+  color: var(--topic-separator_color);
+}
+
 .topic-list .topic-list-item-separator td span {
   background-color: var(--box_background) !important;
 }
