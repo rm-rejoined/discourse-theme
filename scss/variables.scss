@@ -1,3 +1,6 @@
+// common -------------------------------
+$border-radius: 0.25rem;
+
 // body -------------------------------
 $body-bg-light: #fafafa;
 $body-bg-dark: #18181b;
@@ -32,3 +35,5 @@ $footer-primary: $header-primary-dark;
 $box-bg-light: $header-bg-light;
 
 $box-bg-dark: $header-bg-dark;
+
+$box-radius: $border-radius;
