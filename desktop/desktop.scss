@@ -71,15 +71,23 @@
 
 .topic-list th:first-of-type,
 .topic-list td:first-of-type {
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 
 .topic-list th:last-of-type,
 .topic-list td:last-of-type {
-  padding-right: 16px;
+  padding-right: 1rem;
 }
 
 // category-list -------------------------------
 .category-list th {
   padding: 1rem;
+}
+
+.category-list td {
+  padding: 1rem;
+}
+
+.category-list td:first-of-type {
+  padding-left: 1rem;
 }
