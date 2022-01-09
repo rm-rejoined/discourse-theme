@@ -1,0 +1,3 @@
+show_theme_background:
+  default: true
+  description: When unchecked the theme will no longer show a background pattern.

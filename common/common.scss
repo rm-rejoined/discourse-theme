@@ -61,7 +61,11 @@ body {
 #background {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  background-image: var(--body_background-image);
+  @if $show-them-background == "true" {
+    background-image: var(--body_background-image);
+  } @else {
+    background-image: none;
+  }
   background-repeat: repeat;
   background-color: var(--body_background-color);
   height: 100vh;
