@@ -92,7 +92,7 @@ body {
 
     &:hover .d-icon,
     .d-icon {
-      color: var(--header_primary);
+      color: var(--header_primary) !important;
     }
   }
 
