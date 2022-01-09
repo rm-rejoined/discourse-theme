@@ -1,24 +1,6 @@
 @import "common/foundation/variables";
 @import "variables";
 
-// header -------------------------------
-.d-header {
-  height: $header-height-mobile;
-
-  &-icons > li {
-    margin-left: 1rem;
-  }
-}
-
-// site-logo -------------------------------
-#site-logo {
-  max-height: $header-logo-mobile !important;
-
-  &.logo-mobile {
-    height: $header-logo-mobile;
-  }
-}
-
 // footer -------------------------------
 .d-footer {
   min-height: $footer-height-mobile;
