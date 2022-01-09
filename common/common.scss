@@ -89,6 +89,10 @@ body {
 
   &-icons .icon {
     border-radius: $border-radius;
+
+    .d-icon {
+      color: var(--header_primary);
+    }
   }
 
   .extra-info-wrapper {
