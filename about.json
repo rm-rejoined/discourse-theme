@@ -11,11 +11,11 @@
     "re:joined Light": {
       "primary": "252125",
       "secondary": "fafafa",
-      "tertiary": "0d8f7b",
-      "quaternary": "0d8f7b",
+      "tertiary": "37b09d",
+      "quaternary": "37b09d",
       "header_background": "ffffff",
       "header_primary": "333333",
-      "highlight": "f1a7cf",
+      "highlight": "fef08a",
       "danger": "e8004d",
       "success": "36d100",
       "love": "fa6c6c"
@@ -23,11 +23,11 @@
     "re:joined Dark": {
       "primary": "ffffff",
       "secondary": "000000",
-      "tertiary": "0d8f7b",
-      "quaternary": "0d8f7b",
+      "tertiary": "37b09d",
+      "quaternary": "37b09d",
       "header_background": "27272a",
       "header_primary": "ffffff",
-      "highlight": "f1a7cf",
+      "highlight": "fef08a",
       "danger": "e8004d",
       "success": "36d100",
       "love": "fa6c6c"
