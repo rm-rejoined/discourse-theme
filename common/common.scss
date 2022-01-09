@@ -90,6 +90,7 @@ body {
   &-icons .icon {
     border-radius: $border-radius;
 
+    &:hover .d-icon,
     .d-icon {
       color: var(--header_primary);
     }
