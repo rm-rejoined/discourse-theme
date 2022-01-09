@@ -86,42 +86,46 @@ body {
   background-color: var(--header_background);
   border-bottom: 1px solid var(--header_border);
   box-shadow: none;
-}
 
-.d-header .extra-info-wrapper {
-  padding: 0 1.5rem 0 1rem;
+  &-icons .icon {
+    border-radius: $border-radius;
+  }
+
+  .extra-info-wrapper {
+    padding: 0 1.5rem 0 1rem;
+  }
 }
 
 // footer -------------------------------
 .d-footer {
   background-color: $footer-bg;
   border-top: 1px solid $footer-border;
-}
 
-.d-footer > .wrap {
-  height: 100%;
-  width: calc(100% - 16px);
-}
+  &-nav {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
 
-.d-footer .contents {
-  align-items: center;
-  display: flex;
-  height: 100%;
-}
+    a {
+      color: $footer-primary;
+      padding: 0.5rem 0.75rem;
 
-.d-footer-nav {
-  align-items: center;
-  display: flex;
-  flex: 0 0 auto;
-}
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 
-.d-footer-nav a {
-  color: $footer-primary;
-  padding: 0.5rem 0.75rem;
-}
+  > .wrap {
+    height: 100%;
+    width: calc(100% - 16px);
+  }
 
-.d-footer-nav a:hover {
-  text-decoration: underline;
+  .contents {
+    align-items: center;
+    display: flex;
+    height: 100%;
+  }
 }
 
 // box -------------------------------
