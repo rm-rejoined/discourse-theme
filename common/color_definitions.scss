@@ -1,3 +1,4 @@
+@import "common/foundation/variables";
 @import "variables";
 
 // dark-light-choose -------------------------------
@@ -11,6 +12,10 @@ $header-primary: dark-light-choose($header-primary-light, $header-primary-dark);
 $header-dd-background: dark-light-choose(
   $header-dd-bg-light,
   $header-dd-bg-dark
+);
+$header-dd-hover-background: dark-light-choose(
+  $header-dd-hover-bg-light,
+  $header-dd-hover-bg-dark
 );
 
 $box-background: dark-light-choose($box-bg-light, $box-bg-dark);
@@ -43,6 +48,7 @@ $topic-separator-color: dark-light-choose(
 
   --header-dd_background: #{$header-dd-background};
   --header-dd_border: #{$header-border};
+  --header-dd_background: #{$header-dd-hover-background};
 
   --box_background: #{$box-background};
 
