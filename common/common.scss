@@ -236,10 +236,10 @@ body {
 // timeline  -------------------------------
 .timeline-container {
   .timeline-handle {
-    background-color: $primary-color !important;
+    background-color: var(--tertiary) !important;
   }
 
   .timeline-scrollarea {
-    border-color: $primary-color !important;
+    border-color: var(--tertiary) !important;
   }
 }
