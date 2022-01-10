@@ -120,7 +120,7 @@
 }
 
 // menu-panel -------------------------------
-.menu-panel {
+.menu-panel.drop-down {
   background-color: var(--menu-panel_background-color);
   border-radius: $border-radius;
   border: 1px solid var(--header_border);
@@ -128,4 +128,8 @@
     0 4px 6px -4px rgba(0, 0, 0, 0.1);
   margin-top: 0.5rem;
   padding: 0.5rem;
+
+  .menu-links a {
+    border-radius: $border-radius;
+  }
 }
