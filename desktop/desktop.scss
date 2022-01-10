@@ -15,6 +15,25 @@
   &-icons > li {
     margin-left: 1.5rem;
   }
+
+  .menu-panel.drop-down {
+    background-color: var(--header-dd_background);
+    border-radius: $border-radius;
+    border: 1px solid var(--header-dd_border);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+
+    .menu-links .widget-link {
+      border-radius: $border-radius;
+
+      &:hover {
+        background-color: var(--tertiary) !important;
+        color: #fff;
+      }
+    }
+  }
 }
 
 // footer -------------------------------
@@ -116,20 +135,5 @@
 
   .featured-topic:first-of-type {
     margin-top: 1rem;
-  }
-}
-
-// menu-panel -------------------------------
-.menu-panel.drop-down {
-  background-color: var(--header-dd_background);
-  border-radius: $border-radius;
-  border: 1px solid var(--header-dd_border);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -4px rgba(0, 0, 0, 0.1);
-  margin-top: 0.5rem;
-  padding: 0.5rem;
-
-  .menu-links a {
-    border-radius: $border-radius;
   }
 }
