@@ -32,6 +32,10 @@
       &:focus {
         background-color: var(--header-dd_hover-background) !important;
         color: #fff;
+
+        .d-icon {
+          color: #fff;
+        }
       }
     }
   }
