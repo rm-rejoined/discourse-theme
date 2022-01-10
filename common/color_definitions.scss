@@ -27,6 +27,11 @@ $topic-separator-color: dark-light-choose(
   $topic-separator-dark
 );
 
+$menu-panel-bg-color: dark-light-choose(
+  $menu-panel-bg-light,
+  $menu-panel-bg-dark
+);
+
 // custom vars -------------------------------
 :root {
   --body_background-color: #{$body-bg-color};
@@ -45,4 +50,6 @@ $topic-separator-color: dark-light-choose(
   --notice-mod_background: #{$notice-team-background};
 
   --topic-separator_color: #{$topic-separator-color};
+
+  --menu-panel_background-color: #{$menu-panel-bg-color};
 }
