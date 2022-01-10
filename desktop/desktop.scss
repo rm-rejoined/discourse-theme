@@ -28,8 +28,9 @@
     .menu-links .widget-link {
       border-radius: $border-radius;
 
-      &:hover {
-        background-color: var(--tertiary) !important;
+      &:hover,
+      &:focus {
+        background-color: var(--tertiary-low) !important;
         color: #fff;
       }
     }
