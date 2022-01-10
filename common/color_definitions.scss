@@ -8,6 +8,11 @@ $header-background: dark-light-choose($header-bg-light, $header-bg-dark);
 $header-border: dark-light-choose($header-border-light, $header-border-dark);
 $header-primary: dark-light-choose($header-primary-light, $header-primary-dark);
 
+$header-dd-background: dark-light-choose(
+  $header-dd-bg-light,
+  $header-dd-bg-dark
+);
+
 $box-background: dark-light-choose($box-bg-light, $box-bg-dark);
 
 $notice-text: dark-light-choose($notice-text-light, $notice-text-dark);
@@ -27,11 +32,6 @@ $topic-separator-color: dark-light-choose(
   $topic-separator-dark
 );
 
-$menu-panel-bg-color: dark-light-choose(
-  $menu-panel-bg-light,
-  $menu-panel-bg-dark
-);
-
 // custom vars -------------------------------
 :root {
   --body_background-color: #{$body-bg-color};
@@ -40,6 +40,9 @@ $menu-panel-bg-color: dark-light-choose(
   --header_background: #{$header-background};
   --header_border: #{$header-border};
   --header_primary: #{$header-primary};
+
+  --header-dd_background: #{$header-dd-background};
+  --header-dd_border: #{$header-border};
 
   --box_background: #{$box-background};
 
@@ -50,6 +53,4 @@ $menu-panel-bg-color: dark-light-choose(
   --notice-mod_background: #{$notice-team-background};
 
   --topic-separator_color: #{$topic-separator-color};
-
-  --menu-panel_background-color: #{$menu-panel-bg-color};
 }

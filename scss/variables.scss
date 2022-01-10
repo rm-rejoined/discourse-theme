@@ -17,10 +17,12 @@ $header-logo-mobile: 2.5rem;
 $header-bg-light: #fff;
 $header-border-light: #e4e4e7;
 $header-primary-light: #a1a1aa;
+$header-dd-bg-light: #fff;
 
 $header-bg-dark: #27272a;
 $header-border-dark: #000;
 $header-primary-dark: #fff;
+$header-dd-bg-dark: #000;
 
 // footer -------------------------------
 $footer-height: $header-height;
@@ -55,8 +57,3 @@ $notice-mod-bg-dark: $notice-team-bg-dark;
 
 $topic-separator-light: #b91c1c;
 $topic-separator-dark: #fecaca;
-
-// menu-panel -------------------------------
-$menu-panel-bg-light: #fff;
-
-$menu-panel-bg-dark: #000;
