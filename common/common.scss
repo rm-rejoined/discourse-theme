@@ -91,13 +91,19 @@ body {
   border-bottom: 1px solid var(--header_border);
   box-shadow: none;
 
-  &-icons .icon {
-    border-radius: $border-radius $border-radius 0 0;
-    border: none !important;
+  &-icons {
+    .active .icon {
+      border-radius: $border-radius $border-radius 0 0;
+    }
 
-    &:hover .d-icon,
-    .d-icon {
-      color: var(--header_primary) !important;
+    .icon {
+      border-radius: $border-radius;
+      border: none !important;
+
+      &:hover .d-icon,
+      .d-icon {
+        color: var(--header_primary) !important;
+      }
     }
   }
 
