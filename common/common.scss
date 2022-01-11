@@ -93,6 +93,7 @@ body {
 
   &-icons .icon {
     border-radius: $border-radius;
+    border: none !important;
 
     &:hover .d-icon,
     .d-icon {
