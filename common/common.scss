@@ -92,7 +92,7 @@ body {
   box-shadow: none;
 
   &-icons .icon {
-    border-radius: $border-radius;
+    border-radius: $border-radius $border-radius 0 0;
     border: none !important;
 
     &:hover .d-icon,
